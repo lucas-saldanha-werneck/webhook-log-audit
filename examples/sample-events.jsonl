@@ -1,0 +1,16 @@
+{"event_id": "evt_01", "resource_id": "order-1", "seq": 1, "ts": 100.0, "outcome": "processed", "signature_ok": true}
+{"event_id": "evt_02", "resource_id": "order-1", "seq": 2, "ts": 130.0, "outcome": "processed", "signature_ok": true}
+{"event_id": "evt_02", "resource_id": "order-1", "seq": 2, "ts": 190.0, "outcome": "ignored", "signature_ok": true}
+{"event_id": "evt_03", "resource_id": "order-2", "seq": 1, "ts": 200.0, "outcome": "processed", "signature_ok": true}
+{"event_id": "evt_03", "resource_id": "order-2", "seq": 1, "ts": 260.0, "outcome": "processed", "signature_ok": true}
+{"event_id": "evt_04", "resource_id": "order-3", "seq": 1, "ts": 300.0, "outcome": "processed", "signature_ok": true}
+{"event_id": "evt_06", "resource_id": "order-3", "seq": 3, "ts": 310.0, "outcome": "processed", "signature_ok": true}
+{"event_id": "evt_05", "resource_id": "order-3", "seq": 2, "ts": 320.0, "outcome": "processed", "signature_ok": true}
+{"event_id": "evt_07", "resource_id": "order-4", "seq": 1, "ts": 400.0, "outcome": "processed", "signature_ok": true}
+{"event_id": "evt_09", "resource_id": "order-4", "seq": 3, "ts": 410.0, "outcome": "processed", "signature_ok": true}
+{"event_id": "evt_10", "resource_id": "order-5", "seq": 1, "ts": 500.0, "outcome": "processed", "signature_ok": false}
+{"event_id": "evt_11", "resource_id": "order-6", "seq": 1, "ts": 600.0, "outcome": "failed", "signature_ok": true}
+{"event_id": "evt_11", "resource_id": "order-6", "seq": 1, "ts": 600.2, "outcome": "failed", "signature_ok": true}
+{"event_id": "evt_11", "resource_id": "order-6", "seq": 1, "ts": 660.0, "outcome": "processed", "signature_ok": true}
+{"event_id": "evt_12", "resource_id": "order-7", "seq": 1, "ts": 700.0, "outcome": "failed", "signature_ok": true}
+{"event_id": "evt_12", "resource_id": "order-7", "seq": 1, "ts": 760.0, "outcome": "failed", "signature_ok": true}

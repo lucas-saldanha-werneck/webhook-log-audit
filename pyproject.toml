@@ -1,0 +1,16 @@
+[project]
+name = "webhook-log-audit"
+version = "0.1.0"
+description = "Audit a webhook delivery log for idempotency, ordering, signature and retry problems"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+webhook-log-audit = "eventlog_audit.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
