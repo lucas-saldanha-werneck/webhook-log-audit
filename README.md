@@ -2,7 +2,7 @@
 
 Lê um log de entregas de webhook (JSONL) e aponta problemas de integração: evento aplicado duas vezes, evento fora de ordem, buraco na sequência, evento sem assinatura válida que mesmo assim foi processado, retry rápido demais e evento que nunca deu certo.
 
-Demo independente, sem ligação com a FCamara. Feita por Lucas Saldanha Werneck para mostrar como eu olho para integrações por mensageria. Todos os dados do exemplo são inventados.
+Independent demo, not affiliated with FCamara. (Demo independente, sem ligação com a FCamara.) Feita por Lucas Saldanha Werneck para mostrar como eu olho para integrações por mensageria. Todos os dados do exemplo são inventados.
 
 ## Por que existe
 
